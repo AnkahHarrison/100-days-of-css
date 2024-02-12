@@ -1,0 +1,19 @@
+.container {
+  max-width: width 960px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 10px;
+}
+
+.items {
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+.items1 {
+  grid-column-start: col-start 2;
+}

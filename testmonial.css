@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+img {
+  width: 50px;
+}
+.wrapper {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 10px 10px 46px -17px rgba(23, 23, 23, 0.2);
+  border-radius: 20px;
+  max-width: 256px;
+  margin-top: 150px;
+  margin-left: 260px;
+}

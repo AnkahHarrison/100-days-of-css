@@ -1,0 +1,44 @@
+body {
+  color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: white;
+  box-shadow: 10px 10px 46px -17px rgba(23, 23, 23, 0.2);
+  padding: 150px;
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+desc {
+  line-height: 1.4;
+  padding-top: 15px;
+}
+
+.role {
+  padding-top: 5px;
+}
+name{
+    padding: 2px;
+}
+
+.profile:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #333;
+  padding: 50px;
+}
+.container {
+    background-color: #F1F5F9;
+  box-shadow: 10px 10px 46px -17px rgba(23, 23, 23, 0.2);
+  padding: 40px;
+  border-radius: 10px;
+  width: 456px;
+  display: flex;
+  /* flex-grow: 1; */
+  margin: 60px;
+}
+
+.input-box{
+    width: 450px;
+    height: 30px;
+    padding: 10px;
+    border: solid 1px #94A3B8;
+    border-radius: 2px;
+}
+
+.btn{
+background-color:teal ;
+cursor: pointer;
+padding: 0.8rem 1.1rem;
+width: 100px;
+
+}
+#email{
+flex-grow: 1;
+}

@@ -1,0 +1,38 @@
+body {
+  background-color: #f9fafb;
+  color: #333;
+  padding: 50px;
+}
+
+.container {
+  /* background-color: #dbeafe; */
+  background-color: white;
+  padding: 180px;
+  max-width: 20px;
+  height: 150px;
+  box-shadow: 10px 10px 49px -17px rgba(23, 23, 23, 0.2);
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.login {
+  padding: 15px;
+  width: 200px;
+  margin-bottom: 10px;
+  background-color: #018ddd;
+  border-radius: 10px;
+}
+
+.account {
+  padding: 15px;
+  width: 200px;
+  border: solid 1px #018ddd;
+  border-radius: 10px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

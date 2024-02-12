@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: #dbeafe;
+  max-width: 480px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+h3 {
+}
+
+h2 {
+  /* display: block; */
+  background-color: #ed3f4f;
+  color: white;
+  margin-right: 1.2rem;
+  padding: 0.1rem 0.7rem;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}

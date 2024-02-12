@@ -1,0 +1,8 @@
+.container {
+  background-color: #dbeafe;
+  display: flex;
+  padding: 10px;
+  max-width: 256px;
+  justify-content: center;
+  align-items: center;
+}

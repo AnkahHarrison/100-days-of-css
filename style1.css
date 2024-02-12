@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    width: 410px;
+    background-color: #eff6ff;
+    align-items: center;
+    border-radius: 20px;
+    height: 200px;
+    margin: auto;
+}
+.image img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.text{
+    margin-top: 5px;
+    color: #555;
+    margin-left: 20px;
+  
+}

@@ -1,0 +1,27 @@
+.container {
+  background-color: white;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 10px 10px 46px -17px rgba(23, 23, 23, 0.2);
+  padding: 40px;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+    border-radius: 25px;
+    padding: 12px 18px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #ec3258;
+    flex-shrink: 0;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: #F9FAFB;
+    color: #333;
+    padding: 50px;
+  }
+
+
+.main-container{
+    display: flex;
+   justify-content: center;
+   align-items: stretch
+}
+.first-card{
+    background-color: white;
+    margin: 0 20px;
+    padding: 30px;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 49px -17px rgba(23,23,23,0.2);
+    text-align: center;
+}
+img{
+width: 60px;
+
+}

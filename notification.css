@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  box-shadow: 10px 10px 46px -17px rgba(23, 23, 23, 0.5);
+  padding: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 456px;
+  border-radius: 20px;
+  margin: 5rem auto;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.text {
+  text-align: right;
+}
+
+.bell {
+  display: flex;
+  align-items: center;
+}
